@@ -1,0 +1,6 @@
+.skip {
+    text-decoration: none;
+    color:rgba(146, 227, 169, 1);
+}
+
+.step + .step  { margin-left: 5px };

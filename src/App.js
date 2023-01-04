@@ -3,6 +3,8 @@ import Image from "./components/Image";
 import Text from "./components/Text";
 import Stepper from "./components/Stepper";
 import Image1 from "./images/Image1.svg";
+import Skip from "./components/Skip";
+import Button from "./components/Button";
 import Image2 from "./images/Image2.svg";
 import Image3 from "./images/Image3.svg";
 
@@ -23,6 +25,8 @@ function App() {
     },
   ];
 
+  const Btn = ["Continue", "Get started"];
+
   return (
     <div className="App">
       <Image img={Image1} />
@@ -31,6 +35,9 @@ function App() {
       content={Texts[0].content} 
       />
       <Stepper />
+      <Button btntext={Btn[0]
+      }/>
+      <Skip />
     </div>
   );
 }
