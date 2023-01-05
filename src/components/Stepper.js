@@ -1,13 +1,16 @@
 import './Stepper.css';
+import React from 'react';
 
 const Stepper = () => {
-    return (
+    return(
         <div className="stepper">
-        <div className="step"></div>
+        <div className="step">
+        
+        </div>
         <div className="step"></div>
         <div className="step"></div>
         </div>
-    )
-};
-
-export default Stepper;
+        )
+    };
+    
+    export default Stepper;

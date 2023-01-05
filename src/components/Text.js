@@ -1,5 +1,4 @@
 const Text = (props) => {
-    console.log("Teste");
     return (
         <div>
         <h1>{props.title}</h1>
