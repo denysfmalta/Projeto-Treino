@@ -1,3 +1,1 @@
-### Projeto para treinar a componentização em React.js, que fiz durante o estágio da Compass.Uol
 
-A ser atualizado...
